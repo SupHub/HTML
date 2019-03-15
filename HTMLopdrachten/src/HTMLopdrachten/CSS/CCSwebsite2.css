@@ -1,0 +1,83 @@
+body{
+    font-family: Arial;
+}
+
+div#wrapper, footer{
+   padding:20px;
+   margin:auto;
+    width:1000px;
+    background-color: rgb(251,235,245)
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+div.appel{
+    text-align: center;
+    padding-right: 5px;
+}
+
+.appels{
+    height: 338px;
+}
+
+div.visuals{
+
+    padding-right: 2px;
+}
+
+footer{
+    color: white;
+    background-color: rgb(166,166,166);
+
+}
+
+footer a{
+    color:white;
+}
+
+/*navbar*/
+
+.topnav{
+    overflow: hidden;
+}
+
+.topnav a{
+    float: left;
+    color: blue;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color:   blue;
+    color:              white;
+}
+
+/*text*/
+
+.newspaper1{
+    -moz-columns: 100px 3; /* Firefox Browser*/
+    columns: 100px 3;
+}
+
+.newspaper2 {
+    -moz-columns: 100px 3; /* Firefox Browser*/
+    columns: 100px 3;
+
+}
+
+.p{
+    text-align: left;
+}
+
+/*foto*/
+
+.football {
+    text-align:right ;
+}

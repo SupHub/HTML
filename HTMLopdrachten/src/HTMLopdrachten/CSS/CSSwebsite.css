@@ -1,0 +1,93 @@
+body{
+    background-color: white;
+    padding: 20px;
+    width: 1200px;
+
+}
+
+article{
+    text-align: left;
+    width: 600px;
+    height: 200px;
+}
+
+footer{
+    padding: 20px;
+    width: 960px;
+    height: 200px;
+}
+
+
+/*Nakbar*/
+
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 17px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: black;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: black;
+    color: white;
+}
+/*tabel jawel*/
+table{
+    border: black;
+    border-collapse: collapse;
+    width: 250px;
+    font-size: 100%;
+    float: right;
+
+}
+
+
+
+caption{
+    font-family: Verdana, sans-serif;
+}
+
+caption{
+    text-align: center;
+    
+    color: #960;
+    padding: 1px 1px 1px 1px;
+    background-color: #CC9;
+    border: 1px solid black;
+}
+
+td, th{
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+
+
+tbody th{
+    background-color: white;
+}
+
+tbody td{
+    background-color: white;
+}
+
+tfoot{
+    background-color: white;
+    color: black;
+
+}

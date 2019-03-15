@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="CSS/4mulier.css" rel="stylesheet">
+    <link href="https://fonts.googleleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <title>Burton Login</title>
+</head>
+<body>
+<form action="https://www.savatarian.com/html5/form.php" method="post">
+        <div class="header">
+        <h2>Formulier</h2>
+        </div>
+
+    <div class="row">
+        <div class="column" >
+            <ul class="ul1">
+                <li>
+                    <label form="voornaam"> Naam </label>
+                    <input type="text" name="voornaam" required><br>
+                </li>
+                    <label form="tussenvoegsel"> Tussenvoegsel </label>
+                    <input type="text" name="tussenvoegsel"><br>
+                </li>
+                <li>
+                    <label form="achternaam"> Achternaam </label>
+                    <input type="text" name="achternaam" required><br>
+                </li>
+
+                <label class="geslacht" form="geslacht">Geslacht</label>
+                <input id="Man" type="radio" name="geslacht" value="man"/>
+                <label id="Men" form="men">&nbsp;Man</label>
+
+                <input id="Vrouw" type="radio" name="geslacht" value="vrouw"/>
+                <label id="Women" form="women">&nbsp;Vrouw</label>
+
+                <li>
+                    <label form="geboortedatum">Geboortedatum</label>
+                    <input type="date" name="geboortedatum"/><br>
+                </li>
+
+                <li>
+                    <label form="omschrijving">Omschrijving</label>
+                    <textarea name="omschrijving"></textarea>
+                </li>
+            </ul>
+        </div>
+
+        <div class="column1">
+           <ol class="ul2">
+                <li>
+                        <label form="lekker-eten">Lekker eten:</label><br>
+                    <li>
+                        <input type="checkbox" name="lekker-eten" value="sperziebonen">
+                            <span class="checkbox" >Sperziebonen</span><br>
+                        <input type="checkbox" name="lekker-eten" value="aardappelen">
+                            <span class="checkbox">Aardappelen</span><br>
+                        <input type="checkbox" name="lekker-eten" value="hamburger">
+                            <span class="checkbox">Hamburger</span><br>
+                    </li>
+                </li>
+           </ol>
+        </div>
+    </div>
+
+    <div class="column2">
+        <ol class="ul3">
+            <li class="button">
+                <button id="myBtn" value="myvalue" type="reset">Annuleren</button>
+
+                <button id="myBtn" value="myvalue" type="submit">OK</button>
+            </li>
+        </ol>
+    </div>
+
+</form>
+</body>
+</html>
